@@ -1,0 +1,107 @@
+.bg {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.main_heading {
+  color: black;
+  font-family: "Roboto";
+  font-size: 32px;
+  text-align: center;
+}
+.head_ {
+  color: black;
+  font-size: 30px;
+  font-family: "Roboto";
+  margin-left: 30px;
+  font-weight: 800;
+}
+
+.span_ {
+  color: black;
+  font-size: 30px;
+  font-family: "Roboto";
+  font-weight: 100;
+}
+
+.input_ {
+  width: 200px;
+  height: 40px;
+  margin-left: 30px;
+  border-radius: 5px;
+  font-size: 15px;
+  padding: 5px;
+}
+.button_ {
+  color: white;
+  background-color: blue;
+  font-family: "Roboto";
+  font-size: 20px;
+  width: 80px;
+  height: 30px;
+  border-radius: 5px;
+  margin-left: 30px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.hr_ {
+  color: black;
+  width: 100%;
+}
+.todos_items_container {
+  margin-left: 30px;
+}
+
+.todo_item_container {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.check_box {
+  width: 20px;
+  height: 20px;
+}
+
+.label_container {
+  display: flex;
+  flex-direction: row;
+  background-color: #e6f6ff;
+  width: 70%;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #096f92;
+  border-right: none;
+  border-top: none;
+  border-bottom: none;
+  border-radius: 4px;
+  height: 40px;
+  margin-left: 10px;
+  align-items: center;
+}
+
+.label_element {
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 400;
+  width: 82%;
+  margin: 0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 5px;
+}
+.delete_continer {
+  text-align: right;
+  width: 18%;
+}
+.delete_icon {
+  padding: 15px;
+  cursor: pointer;
+}
+.checked {
+  text-decoration: line-through;
+}
